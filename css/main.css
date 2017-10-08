@@ -211,6 +211,12 @@ h3{
 .shapeitemparent{
     text-align: center;
     margin:20px; 
+    position: relative;
+}
+.shapeitemparent img{
+    position: absolute;
+    top:45px;
+    left:35px;
 }
 .shape h6{
     margin:0;
