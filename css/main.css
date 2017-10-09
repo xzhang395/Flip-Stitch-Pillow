@@ -21,6 +21,10 @@ html {
     margin-top: 0;
 }
 
+.current {     
+    border-bottom: 3px solid #FFEE13;
+}
+
 #intro{
     display: flex;
     height: 800px;
@@ -108,6 +112,7 @@ html {
 #nav li{
     display: inline;
     padding: 10px;
+    padding-bottom: 0px;
 }
 
 a:link {
@@ -326,4 +331,18 @@ h2{
 .divide{
     width: 80%;
     max-width:1300px;
+}
+
+textarea {
+   
+    width: 350px;
+    height: 40px;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    resize: none;
+}
+.label{
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
